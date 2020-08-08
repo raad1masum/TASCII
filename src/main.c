@@ -1,8 +1,6 @@
 #include <stdio.h>
 #include <string.h>
 
-#define MAX_STRING_SIZE 999999999999999
-
 void tascii_letter(char letter);
 
 int main(int argc, char *argv[]) {
