@@ -3,7 +3,7 @@
 
 #define MAX_STRING_SIZE 999999999999999
 
-char tascii_letter(char letter);
+void tascii_letter(char letter);
 
 int main(int argc, char *argv[]) {
     for (int i = 1; i < argc; ++i) {
@@ -17,6 +17,6 @@ int main(int argc, char *argv[]) {
     return 0;
 }
 
-char tascii_letter(char letter) {
+void tascii_letter(char letter) {
     printf("%c\n", letter);
 }
