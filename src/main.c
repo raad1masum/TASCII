@@ -18,7 +18,10 @@ int main(int argc, char *argv[]) {
 void tascii_letter(char letter) {
     switch (letter) {
         case 'A':
-            printf("A");
+            printf("A\n");
+            break;
+        default:
+            printf("INVALID CHARACTER\n");
             break;
     }
 }
