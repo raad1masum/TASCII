@@ -338,7 +338,6 @@ void tascii_letter(char letter, int n) {
             if (n == 3) { printf("██    ██   "); }
             if (n == 4) { printf("██ ▄▄ ██   "); }
             if (n == 5) { printf(" ██████    "); }
-            printf("           ");
             break;
         case 'r':
             if (n == 1) { printf("██████     "); }
