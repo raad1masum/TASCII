@@ -1,443 +1,409 @@
 #include <stdio.h>
 #include <string.h>
 
-void tascii_letter(char letter);
-
-int main(int argc, char *argv[]) {
-    for (int i = 1; i < argc; ++i) {
-        for (int j = 0; j < strlen(argv[i]); ++j) {
-            char letter = argv[i][j];
-            tascii_letter(letter);
-        }
-    }
-
-    return 0;
-}
-
-void tascii_letter(char letter) {
+void tascii_letter(char letter, int n) {
     switch (letter) {
         case 'A':
-            printf(" █████     \n");
-            printf("██   ██    \n");
-            printf("███████    \n");
-            printf("██   ██    \n");
-            printf("██   ██    \n");
-            printf("           \n");
+if (n == 1) { printf(" █████     "); }
+if (n == 2) { printf("██   ██    "); }
+if (n == 3) { printf("███████    "); }
+if (n == 4) { printf("██   ██    "); }
+if (n == 5) { printf("██   ██    "); }
             break;
         case 'B':
-            printf("           \n");
-            printf("██████     \n");
-            printf("██   ██    \n");
-            printf("██████     \n");
-            printf("██   ██    \n");
-            printf("██████     \n");
-            printf("           \n");
+if (n == 1) { printf("██████     "); }
+if (n == 2) { printf("██   ██    "); }
+if (n == 3) { printf("██████     "); }
+if (n == 4) { printf("██   ██    ");}
+if (n == 5) { printf("██████     "); }
             break;
         case 'C':
-            printf(" ██████    \n");
-            printf("██         \n");
-            printf("██         \n");
-            printf("██         \n");
-            printf(" ██████    \n");
-            printf("           \n");
+if (n == 1) { printf(" ██████    "); }
+if (n == 2) { printf("██         "); }
+if (n == 3) { printf("██         "); }
+if (n == 4) { printf("██         "); }
+if (n == 5) { printf(" ██████    "); }
             break;
         case 'D':
-            printf("██████     \n");
-            printf("██   ██    \n");
-            printf("██   ██    \n");
-            printf("██   ██    \n");
-            printf("██████     \n");
-            printf("           \n");
+if (n == 1) { printf("██████     "); }
+if (n == 2) { printf("██   ██    "); }
+if (n == 3) { printf("██   ██    "); }
+if (n == 4) { printf("██   ██    "); }
+if (n == 5) { printf("██████     "); }
             break;
         case 'E':
-            printf("███████    \n");
-            printf("██         \n");
-            printf("█████      \n");
-            printf("██         \n");
-            printf("███████    \n");
-            printf("           \n");
+if (n == 1) { printf("███████    "); }
+if (n == 2) { printf("██         "); }
+if (n == 3) { printf("█████      "); }
+if (n == 4) { printf("██         "); }
+if (n == 5) { printf("███████    "); }
             break;
         case 'F':
-            printf("███████    \n");
-            printf("██         \n");
-            printf("█████      \n");
-            printf("██         \n");
-            printf("██         \n");
-            printf("           \n");
+if (n == 1) { printf("███████    "); }
+if (n == 2) { printf("██         "); }
+if (n == 3) { printf("█████      "); }
+if (n == 4) { printf("██         "); }
+if (n == 5) { printf("██         "); }
             break;
         case 'G':
-            printf(" ██████    \n");
-            printf("██         \n");
-            printf("██   ███   \n");
-            printf("██    ██   \n");
-            printf(" ██████    \n");
-            printf("           \n");
+if (n == 1) { printf(" ██████    "); }
+if (n == 2) { printf("██         "); }
+if (n == 3) { printf("██   ███   "); }
+if (n == 4) { printf("██    ██   "); }
+if (n == 5) { printf(" ██████    "); }
             break;
         case 'H':
-            printf("██   ██    \n");
-            printf("██   ██    \n");
-            printf("███████    \n");
-            printf("██   ██    \n");
-            printf("██   ██    \n");
-            printf("           \n");
+if (n == 1) { printf("██   ██    "); }
+if (n == 2) { printf("██   ██    "); }
+if (n == 3) { printf("███████    "); }
+if (n == 4) { printf("██   ██    "); }
+if (n == 5) { printf("██   ██    "); }
             break;
         case 'I':
-            printf("██         \n");
-            printf("██         \n");
-            printf("██         \n");
-            printf("██         \n");
-            printf("██         \n");
-            printf("           \n");
+if (n == 1) { printf("██         "); }
+if (n == 2) { printf("██         "); }
+if (n == 3) { printf("██         "); }
+if (n == 4) { printf("██         "); }
+if (n == 5) { printf("██         "); }
             break;
         case 'J':
-            printf("     ██    \n");
-            printf("     ██    \n");
-            printf("     ██    \n");
-            printf("██   ██    \n");
-            printf(" █████     \n");
-            printf("           \n");
+if (n == 1) { printf("     ██    "); }
+if (n == 2) { printf("     ██    "); }
+if (n == 3) { printf("     ██    "); }
+if (n == 4) { printf("██   ██    "); }
+if (n == 5) { printf(" █████     "); }
             break;
         case 'K':
-            printf("██   ██    \n");
-            printf("██  ██     \n");
-            printf("█████      \n");
-            printf("██  ██     \n");
-            printf("██   ██    \n");
-            printf("           \n");
+if (n == 1) { printf("██   ██    "); }
+if (n == 2) { printf("██  ██     "); }
+if (n == 3) { printf("█████      "); }
+if (n == 4) { printf("██  ██     "); }
+if (n == 5) { printf("██   ██    "); }
             break;
         case 'L':
-            printf("██         \n");
-            printf("██         \n");
-            printf("██         \n");
-            printf("██         \n");
-            printf("███████    \n");
-            printf("           \n");
+if (n == 1) { printf("██         "); }
+if (n == 2) { printf("██         "); }
+if (n == 3) { printf("██         "); }
+if (n == 4) { printf("██         "); }
+if (n == 5) { printf("███████    "); }
             break;
         case 'M':
-            printf("███    ███ \n");
-            printf("████  ████ \n");
-            printf("██ ████ ██ \n");
-            printf("██  ██  ██ \n");
-            printf("██      ██ \n");
-            printf("           \n");
+if (n == 1) { printf("███    ███ "); }
+if (n == 2) { printf("████  ████ "); }
+if (n == 3) { printf("██ ████ ██ "); }
+if (n == 4) { printf("██  ██  ██ "); }
+if (n == 5) { printf("██      ██ "); }
             break;
         case 'N':
-            printf("███    ██  \n");
-            printf("████   ██  \n");
-            printf("██ ██  ██  \n");
-            printf("██  ██ ██  \n");
-            printf("██   ████  \n");
-            printf("           \n");
+if (n == 1) { printf("███    ██  "); }
+if (n == 2) { printf("████   ██  "); }
+if (n == 3) { printf("██ ██  ██  "); }
+if (n == 4) { printf("██  ██ ██  "); }
+if (n == 5) { printf("██   ████  "); }
             break;
         case 'O':
-            printf(" ██████    \n");
-            printf("██    ██   \n");
-            printf("██    ██   \n");
-            printf("██    ██   \n");
-            printf(" ██████    \n");
-            printf("           \n");
+if (n == 1) { printf(" ██████    "); }
+if (n == 2) { printf("██    ██   "); }
+if (n == 3) { printf("██    ██   "); }
+if (n == 4) { printf("██    ██   "); }
+if (n == 5) { printf(" ██████    "); }
             break;
         case 'P':
-            printf("██████     \n");
-            printf("██   ██    \n");
-            printf("██████     \n");
-            printf("██         \n");
-            printf("██         \n");
-            printf("           \n");
+if (n == 1) { printf("██████     "); }
+if (n == 2) { printf("██   ██    "); }
+if (n == 3) { printf("██████     "); }
+if (n == 4) { printf("██         "); }
+if (n == 5) { printf("██         "); }
             break;
         case 'Q':
-            printf(" ██████    \n");
-            printf("██    ██   \n");
-            printf("██    ██   \n");
-            printf("██ ▄▄ ██   \n");
-            printf(" ██████    \n");
-            printf("    ▀▀     \n");
-            printf("           \n");
+if (n == 1) { printf(" ██████    "); }
+if (n == 2) { printf("██    ██   "); }
+if (n == 3) { printf("██    ██   "); }
+if (n == 4) { printf("██ ▄▄ ██   "); }
+if (n == 5) { printf(" ██████    "); }
+            printf("           ");
             break;
         case 'R':
-            printf("██████     \n");
-            printf("██   ██    \n");
-            printf("██████     \n");
-            printf("██   ██    \n");
-            printf("██   ██    \n");
-            printf("           \n");
+if (n == 1) { printf("██████     "); }
+if (n == 2) { printf("██   ██    "); }
+if (n == 3) { printf("██████     "); }
+if (n == 4) { printf("██   ██    "); }
+if (n == 5) { printf("██   ██    "); }
             break;
         case 'S':
-            printf("███████    \n");
-            printf("██         \n");
-            printf("███████    \n");
-            printf("     ██    \n");
-            printf("███████    \n");
-            printf("           \n");
+if (n == 1) { printf("███████    "); }
+if (n == 2) { printf("██         "); }
+if (n == 3) { printf("███████    "); }
+if (n == 4) { printf("     ██    "); }
+if (n == 5) { printf("███████    "); }
             break;
         case 'T':
-            printf("████████   \n");
-            printf("   ██      \n");
-            printf("   ██      \n");
-            printf("   ██      \n");
-            printf("   ██      \n");
-            printf("           \n");
+if (n == 1) { printf("████████   "); }
+if (n == 2) { printf("   ██      "); }
+if (n == 3) { printf("   ██      "); }
+if (n == 4) { printf("   ██      "); }
+if (n == 5) { printf("   ██      "); }
             break;
         case 'U':
-            printf("██    ██   \n");
-            printf("██    ██   \n");
-            printf("██    ██   \n");
-            printf("██    ██   \n");
-            printf(" ██████    \n");
-            printf("           \n");
+if (n == 1) { printf("██    ██   "); }
+if (n == 2) { printf("██    ██   "); }
+if (n == 3) { printf("██    ██   "); }
+if (n == 4) { printf("██    ██   "); }
+if (n == 5) { printf(" ██████    "); }
             break;
         case 'V':
-            printf("██    ██   \n");
-            printf("██    ██   \n");
-            printf("██    ██   \n");
-            printf(" ██  ██    \n");
-            printf("  ████     \n");
-            printf("           \n");
+if (n == 1) { printf("██    ██   "); }
+if (n == 2) { printf("██    ██   "); }
+if (n == 3) { printf("██    ██   "); }
+if (n == 4) { printf(" ██  ██    "); }
+if (n == 5) { printf("  ████     "); }
             break;
         case 'W':
-            printf("██     ██  \n");
-            printf("██     ██  \n");
-            printf("██  █  ██  \n");
-            printf("██ ███ ██  \n");
-            printf(" ███ ███   \n");
-            printf("           \n");
+if (n == 1) { printf("██     ██  "); }
+if (n == 2) { printf("██     ██  "); }
+if (n == 3) { printf("██  █  ██  "); }
+if (n == 4) { printf("██ ███ ██  "); }
+if (n == 5) { printf(" ███ ███   "); }
             break;
         case 'X':
-            printf("██   ██    \n");
-            printf(" ██ ██     \n");
-            printf("  ███      \n");
-            printf(" ██ ██     \n");
-            printf("██   ██    \n");
-            printf("           \n");
+if (n == 1) { printf("██   ██    "); }
+if (n == 2) { printf(" ██ ██     "); }
+if (n == 3) { printf("  ███      "); }
+if (n == 4) { printf(" ██ ██     "); }
+if (n == 5) { printf("██   ██    "); }
             break;
         case 'Y':
-            printf("██    ██   \n");
-            printf(" ██  ██    \n");
-            printf("  ████     \n");
-            printf("   ██      \n");
-            printf("   ██      \n");
-            printf("           \n");
+if (n == 1) { printf("██    ██   "); }
+if (n == 2) { printf(" ██  ██    "); }
+if (n == 3) { printf("  ████     "); }
+if (n == 4) { printf("   ██      "); }
+if (n == 5) { printf("   ██      "); }
             break;
         case 'Z':
-            printf("███████    \n");
-            printf("   ███     \n");
-            printf("  ███      \n");
-            printf(" ███       \n");
-            printf("███████    \n");
-            printf("           \n");
+if (n == 1) { printf("███████    "); }
+if (n == 2) { printf("   ███     "); }
+if (n == 3) { printf("  ███      "); }
+if (n == 4) { printf(" ███       "); }
+if (n == 5) { printf("███████    "); }
             break;
         case 'a':
-            printf(" █████     \n");
-            printf("██   ██    \n");
-            printf("███████    \n");
-            printf("██   ██    \n");
-            printf("██   ██    \n");
-            printf("           \n");
+if (n == 1) { printf(" █████     "); }
+if (n == 2) { printf("██   ██    "); }
+if (n == 3) { printf("███████    "); }
+if (n == 4) { printf("██   ██    "); }
+if (n == 5) { printf("██   ██    "); }
             break;
         case 'b':
-            printf("           \n");
-            printf("██████     \n");
-            printf("██   ██    \n");
-            printf("██████     \n");
-            printf("██   ██    \n");
-            printf("██████     \n");
-            printf("           \n");
+if (n == 1) { printf("██████     "); }
+if (n == 2) { printf("██   ██    "); }
+if (n == 3) { printf("██████     "); }
+if (n == 4) { printf("██   ██    ");}
+if (n == 5) { printf("██████     "); }
             break;
         case 'c':
-            printf(" ██████    \n");
-            printf("██         \n");
-            printf("██         \n");
-            printf("██         \n");
-            printf(" ██████    \n");
-            printf("           \n");
+if (n == 1) { printf(" ██████    "); }
+if (n == 2) { printf("██         "); }
+if (n == 3) { printf("██         "); }
+if (n == 4) { printf("██         "); }
+if (n == 5) { printf(" ██████    "); }
             break;
         case 'd':
-            printf("██████     \n");
-            printf("██   ██    \n");
-            printf("██   ██    \n");
-            printf("██   ██    \n");
-            printf("██████     \n");
-            printf("           \n");
+if (n == 1) { printf("██████     "); }
+if (n == 2) { printf("██   ██    "); }
+if (n == 3) { printf("██   ██    "); }
+if (n == 4) { printf("██   ██    "); }
+if (n == 5) { printf("██████     "); }
             break;
         case 'e':
-            printf("███████    \n");
-            printf("██         \n");
-            printf("█████      \n");
-            printf("██         \n");
-            printf("███████    \n");
-            printf("           \n");
+if (n == 1) { printf("███████    "); }
+if (n == 2) { printf("██         "); }
+if (n == 3) { printf("█████      "); }
+if (n == 4) { printf("██         "); }
+if (n == 5) { printf("███████    "); }
             break;
         case 'f':
-            printf("███████    \n");
-            printf("██         \n");
-            printf("█████      \n");
-            printf("██         \n");
-            printf("██         \n");
-            printf("           \n");
+if (n == 1) { printf("███████    "); }
+if (n == 2) { printf("██         "); }
+if (n == 3) { printf("█████      "); }
+if (n == 4) { printf("██         "); }
+if (n == 5) { printf("██         "); }
             break;
         case 'g':
-            printf(" ██████    \n");
-            printf("██         \n");
-            printf("██   ███   \n");
-            printf("██    ██   \n");
-            printf(" ██████    \n");
-            printf("           \n");
+if (n == 1) { printf(" ██████    "); }
+if (n == 2) { printf("██         "); }
+if (n == 3) { printf("██   ███   "); }
+if (n == 4) { printf("██    ██   "); }
+if (n == 5) { printf(" ██████    "); }
             break;
         case 'h':
-            printf("██   ██    \n");
-            printf("██   ██    \n");
-            printf("███████    \n");
-            printf("██   ██    \n");
-            printf("██   ██    \n");
-            printf("           \n");
+if (n == 1) { printf("██   ██    "); }
+if (n == 2) { printf("██   ██    "); }
+if (n == 3) { printf("███████    "); }
+if (n == 4) { printf("██   ██    "); }
+if (n == 5) { printf("██   ██    "); }
             break;
         case 'i':
-            printf("██         \n");
-            printf("██         \n");
-            printf("██         \n");
-            printf("██         \n");
-            printf("██         \n");
-            printf("           \n");
+if (n == 1) { printf("██         "); }
+if (n == 2) { printf("██         "); }
+if (n == 3) { printf("██         "); }
+if (n == 4) { printf("██         "); }
+if (n == 5) { printf("██         "); }
             break;
         case 'j':
-            printf("     ██    \n");
-            printf("     ██    \n");
-            printf("     ██    \n");
-            printf("██   ██    \n");
-            printf(" █████     \n");
-            printf("           \n");
+if (n == 1) { printf("     ██    "); }
+if (n == 2) { printf("     ██    "); }
+if (n == 3) { printf("     ██    "); }
+if (n == 4) { printf("██   ██    "); }
+if (n == 5) { printf(" █████     "); }
             break;
         case 'k':
-            printf("██   ██    \n");
-            printf("██  ██     \n");
-            printf("█████      \n");
-            printf("██  ██     \n");
-            printf("██   ██    \n");
-            printf("           \n");
+if (n == 1) { printf("██   ██    "); }
+if (n == 2) { printf("██  ██     "); }
+if (n == 3) { printf("█████      "); }
+if (n == 4) { printf("██  ██     "); }
+if (n == 5) { printf("██   ██    "); }
             break;
         case 'l':
-            printf("██         \n");
-            printf("██         \n");
-            printf("██         \n");
-            printf("██         \n");
-            printf("███████    \n");
-            printf("           \n");
+if (n == 1) { printf("██         "); }
+if (n == 2) { printf("██         "); }
+if (n == 3) { printf("██         "); }
+if (n == 4) { printf("██         "); }
+if (n == 5) { printf("███████    "); }
             break;
         case 'm':
-            printf("███    ███ \n");
-            printf("████  ████ \n");
-            printf("██ ████ ██ \n");
-            printf("██  ██  ██ \n");
-            printf("██      ██ \n");
-            printf("           \n");
+if (n == 1) { printf("███    ███ "); }
+if (n == 2) { printf("████  ████ "); }
+if (n == 3) { printf("██ ████ ██ "); }
+if (n == 4) { printf("██  ██  ██ "); }
+if (n == 5) { printf("██      ██ "); }
             break;
         case 'n':
-            printf("███    ██  \n");
-            printf("████   ██  \n");
-            printf("██ ██  ██  \n");
-            printf("██  ██ ██  \n");
-            printf("██   ████  \n");
-            printf("           \n");
+if (n == 1) { printf("███    ██  "); }
+if (n == 2) { printf("████   ██  "); }
+if (n == 3) { printf("██ ██  ██  "); }
+if (n == 4) { printf("██  ██ ██  "); }
+if (n == 5) { printf("██   ████  "); }
             break;
         case 'o':
-            printf(" ██████    \n");
-            printf("██    ██   \n");
-            printf("██    ██   \n");
-            printf("██    ██   \n");
-            printf(" ██████    \n");
-            printf("           \n");
+if (n == 1) { printf(" ██████    "); }
+if (n == 2) { printf("██    ██   "); }
+if (n == 3) { printf("██    ██   "); }
+if (n == 4) { printf("██    ██   "); }
+if (n == 5) { printf(" ██████    "); }
             break;
         case 'p':
-            printf("██████     \n");
-            printf("██   ██    \n");
-            printf("██████     \n");
-            printf("██         \n");
-            printf("██         \n");
-            printf("           \n");
+if (n == 1) { printf("██████     "); }
+if (n == 2) { printf("██   ██    "); }
+if (n == 3) { printf("██████     "); }
+if (n == 4) { printf("██         "); }
+if (n == 5) { printf("██         "); }
             break;
         case 'q':
-            printf(" ██████    \n");
-            printf("██    ██   \n");
-            printf("██    ██   \n");
-            printf("██ ▄▄ ██   \n");
-            printf(" ██████    \n");
-            printf("    ▀▀     \n");
-            printf("           \n");
+if (n == 1) { printf(" ██████    "); }
+if (n == 2) { printf("██    ██   "); }
+if (n == 3) { printf("██    ██   "); }
+if (n == 4) { printf("██ ▄▄ ██   "); }
+if (n == 5) { printf(" ██████    "); }
+            printf("           ");
             break;
         case 'r':
-            printf("██████     \n");
-            printf("██   ██    \n");
-            printf("██████     \n");
-            printf("██   ██    \n");
-            printf("██   ██    \n");
-            printf("           \n");
+if (n == 1) { printf("██████     "); }
+if (n == 2) { printf("██   ██    "); }
+if (n == 3) { printf("██████     "); }
+if (n == 4) { printf("██   ██    "); }
+if (n == 5) { printf("██   ██    "); }
             break;
         case 's':
-            printf("███████    \n");
-            printf("██         \n");
-            printf("███████    \n");
-            printf("     ██    \n");
-            printf("███████    \n");
-            printf("           \n");
+if (n == 1) { printf("███████    "); }
+if (n == 2) { printf("██         "); }
+if (n == 3) { printf("███████    "); }
+if (n == 4) { printf("     ██    "); }
+if (n == 5) { printf("███████    "); }
             break;
         case 't':
-            printf("████████   \n");
-            printf("   ██      \n");
-            printf("   ██      \n");
-            printf("   ██      \n");
-            printf("   ██      \n");
-            printf("           \n");
+if (n == 1) { printf("████████   "); }
+if (n == 2) { printf("   ██      "); }
+if (n == 3) { printf("   ██      "); }
+if (n == 4) { printf("   ██      "); }
+if (n == 5) { printf("   ██      "); }
             break;
         case 'u':
-            printf("██    ██   \n");
-            printf("██    ██   \n");
-            printf("██    ██   \n");
-            printf("██    ██   \n");
-            printf(" ██████    \n");
-            printf("           \n");
+if (n == 1) { printf("██    ██   "); }
+if (n == 2) { printf("██    ██   "); }
+if (n == 3) { printf("██    ██   "); }
+if (n == 4) { printf("██    ██   "); }
+if (n == 5) { printf(" ██████    "); }
             break;
         case 'v':
-            printf("██    ██   \n");
-            printf("██    ██   \n");
-            printf("██    ██   \n");
-            printf(" ██  ██    \n");
-            printf("  ████     \n");
-            printf("           \n");
+if (n == 1) { printf("██    ██   "); }
+if (n == 2) { printf("██    ██   "); }
+if (n == 3) { printf("██    ██   "); }
+if (n == 4) { printf(" ██  ██    "); }
+if (n == 5) { printf("  ████     "); }
             break;
         case 'w':
-            printf("██     ██  \n");
-            printf("██     ██  \n");
-            printf("██  █  ██  \n");
-            printf("██ ███ ██  \n");
-            printf(" ███ ███   \n");
-            printf("           \n");
+if (n == 1) { printf("██     ██  "); }
+if (n == 2) { printf("██     ██  "); }
+if (n == 3) { printf("██  █  ██  "); }
+if (n == 4) { printf("██ ███ ██  "); }
+if (n == 5) { printf(" ███ ███   "); }
             break;
         case 'x':
-            printf("██   ██    \n");
-            printf(" ██ ██     \n");
-            printf("  ███      \n");
-            printf(" ██ ██     \n");
-            printf("██   ██    \n");
-            printf("           \n");
+if (n == 1) { printf("██   ██    "); }
+if (n == 2) { printf(" ██ ██     "); }
+if (n == 3) { printf("  ███      "); }
+if (n == 4) { printf(" ██ ██     "); }
+if (n == 5) { printf("██   ██    "); }
             break;
         case 'y':
-            printf("██    ██   \n");
-            printf(" ██  ██    \n");
-            printf("  ████     \n");
-            printf("   ██      \n");
-            printf("   ██      \n");
-            printf("           \n");
+if (n == 1) { printf("██    ██   "); }
+if (n == 2) { printf(" ██  ██    "); }
+if (n == 3) { printf("  ████     "); }
+if (n == 4) { printf("   ██      "); }
+if (n == 5) { printf("   ██      "); }
             break;
         case 'z':
-            printf("███████    \n");
-            printf("   ███     \n");
-            printf("  ███      \n");
-            printf(" ███       \n");
-            printf("███████    \n");
-            printf("           \n");
+if (n == 1) { printf("███████    "); }
+if (n == 2) { printf("   ███     "); }
+if (n == 3) { printf("  ███      "); }
+if (n == 4) { printf(" ███       "); }
+if (n == 5) { printf("███████    "); }
             break;
         default:
             printf("INVALID CHARACTER\n");
             break;
     }
+}
+
+
+int main(int argc, char *argv[]) {
+    for (int i = 1; i < argc; ++i) {
+        for (int j = 0; j < strlen(argv[i]); ++ j) {
+            char letter = argv[i][j];
+            tascii_letter(letter,1);
+        }
+        printf("\n");
+        for (int j = 0; j < strlen(argv[i]); ++ j) {
+            char letter = argv[i][j];
+            tascii_letter(letter,2);
+        }
+        printf("\n");
+        for (int j = 0; j < strlen(argv[i]); ++ j) {
+            char letter = argv[i][j];
+            tascii_letter(letter,3);
+        }
+        printf("\n");
+        for (int j = 0; j < strlen(argv[i]); ++ j) {
+            char letter = argv[i][j];
+            tascii_letter(letter,4);
+        }
+        printf("\n");
+        for (int j = 0; j < strlen(argv[i]); ++ j) {
+            char letter = argv[i][j];
+            tascii_letter(letter,5);
+        }
+        printf("\n");
+    }
+
+    return 0;
 }
