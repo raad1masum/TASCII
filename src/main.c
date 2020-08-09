@@ -16,5 +16,9 @@ int main(int argc, char *argv[]) {
 }
 
 void tascii_letter(char letter) {
-    printf("%c\n", letter);
+    switch (letter) {
+        case 'A':
+            printf("A");
+            break;
+    }
 }
