@@ -5,27 +5,27 @@ void tascii_letter(char letter, int n);
 
 int main(int argc, char *argv[]) {
     for (int i = 1; i < argc; ++i) {
-        for (int j = 0; j < strlen(argv[i]); ++ j) {
+        for (int j = 0; j < strlen(argv[i]); ++j) {
             char letter = argv[i][j];
             tascii_letter(letter,1);
         }
         printf("\n");
-        for (int j = 0; j < strlen(argv[i]); ++ j) {
+        for (int j = 0; j < strlen(argv[i]); ++j) {
             char letter = argv[i][j];
             tascii_letter(letter,2);
         }
         printf("\n");
-        for (int j = 0; j < strlen(argv[i]); ++ j) {
+        for (int j = 0; j < strlen(argv[i]); ++j) {
             char letter = argv[i][j];
             tascii_letter(letter,3);
         }
         printf("\n");
-        for (int j = 0; j < strlen(argv[i]); ++ j) {
+        for (int j = 0; j < strlen(argv[i]); ++j) {
             char letter = argv[i][j];
             tascii_letter(letter,4);
         }
         printf("\n");
-        for (int j = 0; j < strlen(argv[i]); ++ j) {
+        for (int j = 0; j < strlen(argv[i]); ++j) {
             char letter = argv[i][j];
             tascii_letter(letter,5);
         }
